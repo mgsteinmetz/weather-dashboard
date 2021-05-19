@@ -1,0 +1,12 @@
+/* header section */
+.header-color {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(68,48,182,1) 45%, rgb(0, 90, 108) 100%);
+}
+
+.h1-text {
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+/* side search area */
