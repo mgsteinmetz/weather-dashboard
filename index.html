@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Weather Dashboard</title>
 </head>
 <body>
     <header class="jumbotron container-fluid text-center p-2 header-color">
@@ -16,8 +16,8 @@
     <main class="container">
         <div class="row">
             <!-- search container -->
-            <div class="col-sm-4">
-                <h3>Search For a City:</h3>
+            <div class="col-sm-4 bg-light">
+                <h3 class="pt-1">Search For a City:</h3>
             </div>
 
             <!-- search buttons -->
@@ -28,7 +28,7 @@
                 </div>
 
                 <!-- search history -->
-                <button class="btn btn-primary" type="button" id="clear-history">Search History</button>
+                <button class="btn btn-primary" type="button" id="clear-history">Clear History</button>
                 <ul class="list-group">
 
                 </ul>
@@ -49,31 +49,31 @@
                     <h4>5-Day Forecast:</h4>
                     <div class="row text-light">
                         <div class="col-sm-2 bg-dark forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
-                            <p id="fDate-0"></p>
+                            <p id="fDate0"></p>
                             <p id="fImg0"></p>
                             <p>Temp:<span id="fTemp-0"></span></p>
                             <p>Humidity:<span id="fHumidity0"></span></p>
                         </div>
                         <div class="col-sm-2 bg-dark forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
-                            <p id="fDate-1"></p>
+                            <p id="fDate1"></p>
                             <p id="fImg1"></p>
                             <p>Temp:<span id="fTemp-1"></span></p>
                             <p>Humidity:<span id="fHumidity1"></span></p>
                         </div>
                         <div class="col-sm-2 bg-dark forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate-2"></p>
+                            <p id="fDate2"></p>
                             <p id="fImg2"></p>
                             <p>Temp:<span id="fTemp-2"></span></p>
                             <p>Humidity:<span id="fHumidity2"></span></p>
                         </div>
                         <div class="col-sm-2 bg-dark forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate-3"></p>
+                            <p id="fDate3"></p>
                             <p id="fImg3"></p>
                             <p>Temp:<span id="fTemp-3"></span></p>
                             <p>Humidity:<span id="fHumidity3"></span></p>
                         </div>
                         <div class="col-sm-2 bg-dark forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
-                            <p id="fDate-4"></p>
+                            <p id="fDate4"></p>
                             <p id="fImg4"></p>
                             <p>Temp:<span id="fTemp-4"></span></p>
                             <p>Humidity:<span id="fHumidity4"></span></p>
@@ -86,5 +86,6 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
