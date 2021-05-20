@@ -1,1 +1,1 @@
-# weather-dashboard
+# weather-dashboard - OpenWeather API - JavaScript
