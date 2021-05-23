@@ -28,3 +28,18 @@ span {
     font-size: 45px;
     color: whitesmoke;
 }
+
+/* history button */
+#clear-history {
+    margin-left: 10px;
+}
+
+/* history list */
+.list-group {
+    margin-left: 10px;
+}
+
+/* search button */
+#search-btn {
+    border-radius: 5px;
+}
